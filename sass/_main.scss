@@ -1,0 +1,364 @@
+
+#bootstrap-overrides nav{	
+	font-family:"segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+	
+	background-color:transparent;
+	color:#fff;
+	border-color:transparent;
+	a{
+		color:white;
+		font-weight:600;
+		font-size: 13px;
+	}
+}
+
+#bootstrap-overrides{
+	.btn-primary{
+		background-color:$bitly_orange;
+		border-color:$bitly_orange;
+	}
+	body p{
+		color: #a3aaae;
+	}
+	h2,h3,h4,h5,p{
+		font-family:"segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
+}
+
+#bootstrap-overrides .services p{
+	color: #a3aaae;
+}
+
+#bootstrap-overrides a.btn{
+
+	border:1px solid #fff;
+	border-radius:3px;
+	padding:12px 25px;
+	margin:0px 10px;
+	cursor:pointer;
+	width:114px;
+	 &.btn-head-signup{
+		 color:$bitly_blue;
+		 background-color:#fff;
+		 &:hover{
+			 opacity:0.8;
+		    
+	  
+		 
+	   }
+}
+	 
+	&.btn-head-login{
+		
+	 
+	 &:hover{
+	
+background-color:rgba(255,255,255,0.15);
+
+     }
+	 &.free-sign-up{
+		 width:180px;
+		 height:60px;
+		 padding-top:20px;
+	 }
+  }
+  &.counter-button{
+			width:auto;
+			font-weight:bold;
+			font-size:12px;
+			padding:17px 105px;
+			border-color:$bitly_orange;
+		}
+}
+
+#bootstrap-overrides .learn-link{
+font-size: 15.6px;
+font-weight:100;
+}
+
+
+.lander{
+	background:url("//d3h5jhobc20ump.cloudfront.net/baaea3255487f3b82e6c343dfd42e5a9.jpg") top / 1400px 100% no-repeat;
+	height:570px;
+}
+
+.lander-container{
+	padding-top:65px;
+	 h1{
+		 font-size: 48px;
+		 letter-spacing:1px;
+	 }
+	 
+	 p{
+		 font-size:20px;
+	 }
+	 &.with-non-fixed-nav{
+		 padding-top:180px;
+	 }
+}
+
+
+.logo{
+@include logo;
+height:50px;
+width:100px;
+}
+
+.logo-orange{
+ @include logo_orange;
+}
+
+.nav-container{
+	padding-top:32px;
+	padding-bottom:32px;
+}
+
+#bootstrap-overrides .opaque-nav{
+	background-color:#fff;
+	box-shadow:0 0 3px #a3aaae;
+}
+
+#bootstrap-overrides .nav-container .orange{
+	
+	color:$bitly_orange;
+}
+
+#bootstrap-overrides .nav-container a.btn.btn-head-signup.orange{
+	background-color:$bitly_orange;
+	border-color:$bitly_orange;
+	color:#fff;
+	
+}
+
+#bootstrap-overrides .nav-container a.btn.btn-head-login.orange{
+	border-color:$bitly_orange;
+}
+
+.input-col{
+	margin-top:40px;
+	
+	.form-control{
+		height:60px;
+		border-color:#fff;
+		font-size:17px;
+		padding-left:30px;
+		
+		
+	}
+	
+	.btn-secondary{
+		height:60px;
+		width:130px;
+		background-color:$bitly_orange;
+		color:#fff;
+		
+	}
+	
+	
+}
+
+.lander-bottom-nested{
+	margin-top:160px;
+	
+	
+}
+
+.white-arrow-small{
+	width: 17px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: -2px;
+	@include arrow;
+	
+}
+
+.service-container{
+	padding-top:100px;
+}
+
+.sub-header{
+	color: #707a80;
+	font-size: 21px;
+    line-height: 29px;
+    font-weight:100;
+    
+}
+
+.main-icon {
+    display: inline-block;
+    line-height: 64px;
+    vertical-align: middle;
+    width: 64px;
+    height: 64px;
+    background-size: contain;
+}
+
+.main-icon-shorten{
+	@include chain_link;
+}
+
+.main-icon-share{
+	@include phone_icon;
+}
+
+.main-icon-measure{
+	@include graph_icon;
+}
+
+.learn-cta-button{
+	padding:20px 50px;
+}
+
+.service-row-middle{
+	padding-top:80px;
+}
+
+.service-row-bottom{
+	.learn-cta-button{
+	margin:100px 0px;
+
+	}
+}
+
+.links-shortened{
+	background-color:#0e3042;
+	.container{
+		padding:46px 0;
+	}
+	h2{
+		color:#fff;
+		margin-top: 0px;
+        margin-bottom: 20px;
+	}
+}
+
+/*clients carousel logos*/
+
+.wall-street{
+	@include client_1;
+}
+
+.samsung{
+	@include client_2;
+}
+
+.couch-surfing{
+	@include client_3;
+}
+
+.ama{
+	@include client_4;
+}
+
+.monster{
+	@include client_5;
+}
+
+.american-eagle{
+	@include client_6;
+}
+
+.keurig{
+	@include client_7;
+}
+
+.progressive{
+	@include client_8;
+}
+
+.buzz-feed{
+	@include client_9; 
+}
+
+
+.carousel-logo{
+	height:55px;
+	width:140px;
+	background-size:contain;
+	display:inline-block;
+	margin:10px;
+}
+
+
+/*carousel arrow SVG*/
+
+.carousel-arrow-left{
+	@include carousel_arrow_left;
+}
+
+.carousel-arrow-right{
+	@include carousel_arrow_right;
+}
+
+
+
+.carousel-row-top p{
+	color:$bitly_orange;
+	padding:50px 0px 30px;
+	font-weight:bold;
+	
+}
+
+.client-carousel{
+	background: #eff7fc;
+	padding-bottom:50px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.carousel-control.right{
+	padding-left:130px;
+}
+
+.carousel-arrow{
+	height:100px;
+	width:100px;
+	margin-top:140px;
+}
+
+
+/*bootstrap vertical carousel*/
+
+.vertical .carousel-inner {
+  height: 100%;
+}
+
+.carousel.vertical .item {
+  -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+      -ms-transition: 0.6s ease-in-out top;
+       -o-transition: 0.6s ease-in-out top;
+          transition: 0.6s ease-in-out top;
+}
+
+.carousel.vertical .active {
+  top: 0;
+}
+
+.carousel.vertical .next {
+  top: 400px;
+}
+
+.carousel.vertical .prev {
+  top: -400px;
+}
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+
+.carousel.vertical .active.left {
+  top: -400px;
+}
+
+.carousel.vertical .active.right {
+  top: 400px;
+}
+
+.carousel.vertical .item {
+    left: 0;
+}
+/*bootstrap vertical carousel end*/

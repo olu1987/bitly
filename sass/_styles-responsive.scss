@@ -1,0 +1,92 @@
+@media (min-width: 992px){
+#bootstrap-overrides .container{
+    max-width: 920px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+}
+
+@media (max-width: 767px){
+ div#top-navbar{
+	 position:absolute;
+	 background:#fff;
+	 z-index:5;
+	 width:110%;
+	 border-bottom:1px solid grey;
+	 a{
+		 color:$bitly_orange;
+	 }
+ }
+ .lander{
+	 height:340px;
+	.lander-container{
+		padding-top:70px;
+		
+		h1{
+	font-size:28px;
+	margin-top: -70px;
+	padding-top:0px;
+	
+	  }
+	  p{
+		 font-size:16px;
+		 padding:0 10px;
+	 }
+	}
+ }
+	
+.input-col {
+    margin-top: 0px;
+	  .form-control{
+		height:50px;
+		border-color:#fff;
+		font-size:11px;
+		padding-left:30px;
+		
+		
+	}
+	
+	.btn-secondary{
+		height:50px;
+		width:80px;
+		background-color:$bitly_orange;
+		color:#fff;
+		font-size: 11px;
+	}
+	
+}
+
+.nav-container{
+	padding: 0px 10px;
+	.logo{
+		margin-left:20px;
+		margin-top:15px;
+		background-size: 80px;
+	}
+}
+
+#bootstrap-overrides .lander-bottom-nested{
+	margin-top:-5px;
+	padding:0px 10px;
+	
+	.col-xs-6{
+		padding:12px;
+	}
+}
+
+.lander-bottom-nested.mobile a.btn.btn-head-login{
+	width:140px;
+}
+
+#bootstrap-overrides a.btn {
+	margin:0px;
+}
+
+#bootstrap-overrides .mobile a.btn.btn-head-login.free-sign-up {
+	height:50px;
+	font-size:10px;
+	padding-top: 15px;
+}
+
+}
