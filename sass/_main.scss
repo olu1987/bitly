@@ -20,7 +20,7 @@
 	body p{
 		color: #a3aaae;
 	}
-	h2,h3,h4,h5,p{
+	h2,h3,h4,h5,p,a{
 		font-family:"segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
 	}
 }
@@ -230,7 +230,12 @@ width:100px;
 		margin-top: 0px;
         margin-bottom: 20px;
 	}
+	.counter{
+		width:100%;
+	}
 }
+
+/*bootstrap clients carousel start*/
 
 /*clients carousel logos*/
 
@@ -318,6 +323,8 @@ width:100px;
 	margin-top:140px;
 }
 
+/*bootstrap clients carousel end*/
+
 
 /*bootstrap vertical carousel*/
 
@@ -338,11 +345,11 @@ width:100px;
 }
 
 .carousel.vertical .next {
-  top: 400px;
+  top: 100%;
 }
 
 .carousel.vertical .prev {
-  top: -400px;
+  top: -100%;
 }
 
 .carousel.vertical .next.left,
@@ -351,14 +358,128 @@ width:100px;
 }
 
 .carousel.vertical .active.left {
-  top: -400px;
+  top: -100%;
 }
 
 .carousel.vertical .active.right {
-  top: 400px;
+  top: 100%;
 }
 
 .carousel.vertical .item {
     left: 0;
+}​
+
+.thumb{
+	height:100px;
+	width:100px;
+	
+	
 }
+
+.carousel.vertical p{
+	color:$bitly_orange;
+	font-size:20px;
+	font-weight:100;
+	padding:110px 18% 15px;
+}
+
+div.thumb-wrapper{
+	
+}
+
+div.thumb{
+	color:red;
+	height:100px;
+	width:100px;
+	border-radius:50%;
+	background-size:contain;
+	display: block;
+    margin: 0 auto;
+}
+
+.client-1{
+	@include testimonial-pic-1;
+}
+.client-2{
+	@include testimonial-pic-2;
+}.client-3{
+	@include testimonial-pic-3;
+}.client-4{
+	@include testimonial-pic-4;
+}
+
+
+
+.vertical .client-carousel{
+	background: #fff;
+	padding-bottom:50px;
+}
+
+.testimonials-carousel{
+	height:500px;
+}
+
+.vertical div.item{
+	height:400px;
+}
+
 /*bootstrap vertical carousel end*/
+
+/*resources section*/
+
+.resources{
+	background: #f7fbfd;
+	padding-bottom:80px;
+	.resource-box{
+		border: 1px #dde0e2 solid;
+		width:100%;
+		height:300px;
+		margin-bottom:20px;
+		border-radius: 3px;
+		max-width: 400px;
+        margin: 0 auto;
+
+	}
+	h3{
+		padding:20px 0 30px;
+	}
+}
+
+.resource-thumb{
+	width:100%;
+	margin-bottom:25px;
+	border-bottom: 1px #dde0e2 solid;
+}
+
+.link-title{
+	margin-bottom:30px;
+	color: #61b3de;
+	font-weight:bold;
+	&.case-study a{
+		color:$bitly_orange;
+	}
+}
+
+.resource-title{
+padding:0px 10px;
+color: #464c50;
+font-size: 17px;
+font-weight:500;
+}
+
+/*resources section*/
+
+/*footer section*/
+
+.footer-nav li{
+	display:inline-block;
+	padding:50px 20px;
+	font-size: 11px;
+	font-weight:bold;
+	a{
+		color: #7f898e;
+	}
+}
+
+
+

@@ -156,7 +156,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-8 col-md-offset-2 text-center">
-	  <img src="assets/images/link-counter.png"/>
+	  <img class="counter" src="assets/images/link-counter.png"/>
 	  <h2>LINKS SHORTENED WORLDWIDE</h2>
 	  <a hrf="#" class="btn btn-primary counter-button">CREATE YOUR FREE ACCOUNT</a>
 	</div>
@@ -210,11 +210,11 @@
   </div>
 
   <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+  <a class="left carousel-control hidden-xs" href="#myCarousel" role="button" data-slide="prev">
     <span class="glyphicon carousel-arrow carousel-arrow-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control " href="#myCarousel" role="button" data-slide="next">
+  <a class="right carousel-control hidden-xs" href="#myCarousel" role="button" data-slide="next">
     <span class="glyphicon carousel-arrow carousel-arrow-right text-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -227,57 +227,128 @@
 
 <!--testimonial vertical carousel section-->
 <section class="testimonials-carousel">
-<div class="">
-  <div class="container">
-    <div id="carousel-example-vertical" class="carousel vertical slide" data-interval="10000">
-      <div class="carousel-inner" role="listbox">
-        <div class="item active text-center">
-          <p class="ticker-headline">
-            Branding is extremely important to us. Having our own Branded Short Domain through Bitly Brand Tools helps us keep our brand at the forefront of all our social sharing efforts.
-          </p>
-        </div>
-        <div class="item">
-          <p class="ticker-headline">
-            <a href="#">
-              <strong>Article Headline 2</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus eu odio fermentum tempus. Aliquam erat volutpat. Etiam arcu urna, lacinia sed dapibus sed, molestie ac mi.
-            </a>
-          </p>
-        </div>
-        <div class="item">
-          <p class="ticker-headline">
-            <a href="#">
-              <strong>Article Headline 3</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus eu odio fermentum tempus. Aliquam erat volutpat. Etiam arcu urna, lacinia sed dapibus sed, molestie ac mi.
-            </a>
-          </p>
-        </div>
-        <div class="item">
-          <p class="ticker-headline">
-            <a href="#">
-              <strong>Article Headline 4</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus eu odio fermentum tempus. Aliquam erat volutpat. Etiam arcu urna, lacinia sed dapibus sed, molestie ac mi.
-            </a>
-          </p>
-        </div>
-        <div class="item">
-          <p class="ticker-headline">
-            <a href="#">
-              <strong>Article Headline 5</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus eu odio fermentum tempus. Aliquam erat volutpat. Etiam arcu urna, lacinia sed dapibus sed, molestie ac mi.
-            </a>
-          </p>
-        </div>
-      </div>
+<div class="row">
+ <div class="col-md-8 col-md-offset-2">
+  <!-- carousel -->
+  <div id="myCarousel-vertical" class="carousel slide vertical" data-ride="carousel" data-interval="3000">
+  
 
-      <!-- Controls -->
-      <a class="up carousel-control" href="#carousel-example-vertical" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="down carousel-control" href="#carousel-example-vertical" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active text-center">
+      <p>"Bitly helps us centralize article-level analytics for all the content on our site, which gives us a clearer picture of where it's performing well and why. The ability to integrate our Bitly API key with third-party platforms such as Buffer, TweetDeck, our CMS and more is a valuable tool."
+	  </p>
+	  <div class="thumb-wrapper text-center">
+	  <div class="thumb client-1">
+	  </div>
+	  </div>
+	  <h5>Brad Gerick</h5>
+	  <span class="quote-source">Director of Social Media, New York Daily News</span>
+	</div>
+
+    <div class="item text-center">
+      <p>"Bitly provides me with the insights I need for all my social channels to build robust monthly reports and optimize my social marketing."
+	  </p>
+	  <div class="thumb-wrapper text-center">
+	  <div class="thumb client-2">
+	  </div>
+	  </div>
+	  <h5>Joshua Karpf</h5>
+	  <span class="quote-source">Global Director, Social Marketing, Spotify</span>
+	</div>
+	
+	<div class="item text-center">
+      <p>"Branding is extremely important to us. Having our own Branded Short Domain through Bitly Brand Tools helps us keep our brand at the forefront of all our social sharing efforts."
+	  </p>
+	  <div class="thumb-wrapper text-center">
+	  <div class="thumb client-3">
+	  </div>
+	  </div>
+	  <h5>Bita Ehsanipour</h5>
+	  <span class="quote-source">Social Media Manager, Men's Wearhouse</span>
+	</div>
+	<div class="item text-center">
+      <p>"Bitly provides services we couldn't find anywhere else - from customized branded links to stats that let us know in real time what's working and what's not. Without question, it's one of our most valuable social media tools."
+	  </p>
+	  <div class="thumb-wrapper text-center">
+	  <div class="thumb client-4">
+	  </div>
+	  </div>
+	  <h5>Nicole Levins
+</h5>
+	  <span class="quote-source">Content and Social Media Strategist, Urban Institute</span>
+	</div>
+
   </div>
+
+  
 </div>
+<!-- ./vertical carousel -->
+</div>
+</div>
+
+
+
+
+</section>
+<!-- ./vertical carousel section -->
+
+<!-- resource section -->
+<section class="resources">
+
+<div class="container resource-container text-center">
+<h3>RECOMMENDED RESOURCES</h3>
+   <div class="row resource-row">
+     <div class="col-md-4 col-sm-4">
+	 <div class="resource-box">
+	 <img class="resource-thumb" src="https://bitly.com/s/beta/graphics/marketing/resources/ways-brands-use-bitly.jpg"/>
+    <div>	
+	<p class="link-title"><a href="#">EBOOK</a></p>
+	 <a href="#" class="resource-title">37 WAYS BRANDS USE BITLY</a>
+	 </div>
+	 </div>
+	 </div>
+	 <div class="col-md-4 col-sm-4">
+	 <div class="resource-box">
+	 <img class="resource-thumb" src="https://bitly.com/s/beta/graphics/marketing/resources/marketing-analytics-tools.jpg"/>
+	 <p class="link-title"><a href="#">EBOOK</a></p>
+	 <a href="#" class="resource-title">THE BIG BOOK OF MARKETING ANALYTICS TOOLS</a>
+	 </div>
+	 </div>
+	 <div class="col-md-4 col-sm-4">
+	 <div class="resource-box">
+	 <img class="resource-thumb" src="https://bitly.com/s/beta/graphics/marketing/resources/case-study.jpg"/>
+	 <p class="link-title case-study"><a href="#">CASE STUDY</a>
+	 </p>
+	 <a href="#" class="resource-title">HOW BITLY DEEP LINKS DRIVE APP INSTALLS</a>
+	 </div>
+	 </div>
+   
+   </div>
+
+</div>
+
+</section>
+<section class="footer">
+  <div class="footer-container">
+     <div class="row">
+	    <div class="col-md-12 text-center">
+		   <ul class="footer-nav">
+		      <li class=""><a href="solutions">BLOG</a></li>
+			  <li class=""><a href="about/why-vantworks.html">SUPPORT</a></li>
+			  <li class=""><a href="about">CONTACT</a></li>
+			  <li class=""><a href="about/contact-us.html">DEVELOPERS</a></li>
+			  <li class=""><a href="about/contact-us.html">PRIVACY POLICY</a></li>
+			  <li class=""><a href="about">TERMS OF SERVICE</a></li>
+			  <li class=""><a href="about/contact-us.html">PARTNERS</a></li>
+			  <li class=""><a href="about/contact-us.html">CAREERS</a></li>
+		   </ul>
+		</div>
+	 
+	 </div>
+  
+  </div>
+
 </section>
 
 
